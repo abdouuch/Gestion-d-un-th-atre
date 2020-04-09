@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AppFctComp5</class>
+ <widget class="QDialog" name="AppFctComp5">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>575</width>
+    <height>402</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Les représentations sans places réservées</string>
+  </property>
+  <widget class="QLabel" name="label_fct_comp_5">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>10</y>
+     <width>258</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="table_fct_comp_5">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>40</y>
+     <width>451</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="lineWidth">
+    <number>1</number>
+   </property>
+   <property name="autoScroll">
+    <bool>true</bool>
+   </property>
+   <property name="showDropIndicator" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="cornerButtonEnabled">
+    <bool>true</bool>
+   </property>
+   <attribute name="horizontalHeaderVisible">
+    <bool>true</bool>
+   </attribute>
+   <attribute name="horizontalHeaderCascadingSectionResizes">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>223</number>
+   </attribute>
+   <attribute name="verticalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>noSpec</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>dateRep</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
