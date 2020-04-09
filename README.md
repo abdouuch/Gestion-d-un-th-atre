@@ -1,1 +1,1 @@
-# Gestion-d-un-th-atre
+# Gestion d'un théatre
